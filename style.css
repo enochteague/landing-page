@@ -156,19 +156,25 @@ img {
     text-wrap: nowrap;
 }
 
-.section-three {
+.parent {
     display: flex;
-    flex-direction: column;
-    height: 300px;
-    width: auto;
     background-color: #3177ef;
-    margin: 70px;
+    margin: 150px;
     border-radius: 25px;
-    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.section-three {
+    height: 250px;
+    width: auto;
+}
+
+.container-two {
+    align-items: center;
+    justify-content: center;
 }
 
 .title-three {
-    display: flex;
     font-size: 36px;
     color: white;
     margin-left: 300px;
@@ -176,25 +182,21 @@ img {
 }
 
 .body-p-two {
-    display: flex;
     font-size: 18px;
     margin-left: 300px;
-    margin-top: 20px;
     align-items: center;
     color: #f9faf8;
 }
 
 .button-two{
-    display: flex;
     max-width: 130px;
     font-size: 28px;
     background-color: #3177ef;
     color: white;
     border: 2px solid white;
     border-radius: 20px;
-    margin-top: 120px;
     height: 60px;
-    align-items: center;
+    align-self: center;
     justify-content: center;
 }
 
