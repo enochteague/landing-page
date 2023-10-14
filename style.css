@@ -125,3 +125,33 @@ img {
 .container {
     max-width: 150px;
 }
+
+.section-two {
+    display: flex;
+    width: auto;
+    height: 400px;
+    background-color: #e5e7eb;
+    margin-top: 30px;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+    margin-left: 20px;
+}
+
+.quote-label {
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+    width: auto;
+    align-items: end;
+    margin-right: 150px;
+    margin-bottom: 130px;
+    text-wrap: nowrap;
+}
