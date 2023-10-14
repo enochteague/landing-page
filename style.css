@@ -92,3 +92,36 @@ img {
     justify-content: center;
     padding: 10px;
 }
+
+.card {
+    display: flex;
+    min-width: 150px;
+    min-height: 150px;
+    border: 3px solid #3177ef;
+    border-radius: 25px;
+}
+
+.title-two {
+    display: flex;
+    font-weight: bold;
+    font-size: 36px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.text {
+    max-width: 150px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 150px;
+}
